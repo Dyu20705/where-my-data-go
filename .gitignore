@@ -1,1 +1,24 @@
 docs/quy-trinh/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Testing & cache directories
+.pytest_cache/
+.coverage
+
+# Databases & local storage
+*.duckdb
+*.duckdb.wal
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
